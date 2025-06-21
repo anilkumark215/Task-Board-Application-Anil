@@ -5,6 +5,11 @@
 ## Summary of Task
 This week my Challenge was to create a simple task board application that allows a team to manage project tasks by modifying starter code. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
+### 🖥️ Clone the Repository
+
+bash
+git clone https://github.com/anilkumark215/Task-Board-Application-Anil.git
+cd Task-Board-Application-Anil
 
 **Note:** 
 
@@ -41,6 +46,15 @@ WHEN I refresh the page
 THEN the saved tasks persist
 ```
 
+## Task-Board-Application-Anil/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+├── index.html
+├── LICENSE
+├── README.md
 
 
 ## Deploying to GitHub Pages
