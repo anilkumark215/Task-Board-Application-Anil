@@ -9,7 +9,7 @@ This week my Challenge was to create a simple task board application that allows
 
 ''' bash 
 git clone https://github.com/anilkumark215/Task-Board-Application-Anil.git 
-## cd Task-Board-Application-Anil
+cd Task-Board-Application-Anil
 
 **Note:** 
 
