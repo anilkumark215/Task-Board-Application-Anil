@@ -5,9 +5,9 @@
 ## Summary of Task
 This week my Challenge was to create a simple task board application that allows a team to manage project tasks by modifying starter code. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
-### 🖥️ Clone the Repository
+### 🖥️ Clone the Repository 
 
--- bash --
+## bash 
 git clone https://github.com/anilkumark215/Task-Board-Application-Anil.git
 cd Task-Board-Application-Anil
 
