@@ -46,15 +46,18 @@ WHEN I refresh the page
 THEN the saved tasks persist
 ```
 
-## Task-Board-Application-Anil/
-├── assets/
--- │   ├── css/
--- │   │   └── style.css
--- │   └── js/
--- │       └── script.js
--- ├── index.html
--- ├── LICENSE
--- ├── README.md
+## 📁 Project Structure
+
+    Task-Board-Application-Anil/
+    ├── assets/
+    │   ├── css/
+    │   │   └── style.css
+    │   └── js/
+    │       └── script.js
+    ├── index.html
+    ├── LICENSE
+    ├── README.md
+
 
 
 ## Deploying to GitHub Pages
