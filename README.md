@@ -7,7 +7,7 @@ This week my Challenge was to create a simple task board application that allows
 
 ### 🖥️ Clone the Repository
 
-bash
+-- bash
 git clone https://github.com/anilkumark215/Task-Board-Application-Anil.git
 cd Task-Board-Application-Anil
 
@@ -48,13 +48,13 @@ THEN the saved tasks persist
 
 ## Task-Board-Application-Anil/
 ├── assets/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-├── index.html
-├── LICENSE
-├── README.md
+-- │   ├── css/
+-- │   │   └── style.css
+-- │   └── js/
+-- │       └── script.js
+-- ├── index.html
+-- ├── LICENSE
+-- ├── README.md
 
 
 ## Deploying to GitHub Pages
@@ -76,13 +76,13 @@ Thanks for visiting!
 If you would like to learn more, or contact me, feel free to reach me at the following:
 
 <ul>
-    <li>Webpage URL: https://mandrade09.github.io/Task-Board/</li>
+    <li>Webpage URL: https://anilkumark215.github.io/Task-Board-Application-Anil/</li>
    
     <li>E-mail: kavali.anil.dev@gmail.com </li>
     <li>Phone: </li>
 </ul>
 
 <p>
-<footer> &ndash; Matthew Andrade</footer>
+<footer> &ndash; K ANIL KUMAR </footer>
 </p>
 
