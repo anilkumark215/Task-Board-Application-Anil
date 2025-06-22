@@ -1,39 +1,19 @@
-/*body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-}
-
-.swim-lanes {
-  min-height: 60vh;
-}
-
-.task-card {
-  margin: 0 auto;
-  z-index: 2;
-}
-
-.task-card:hover {
-  cursor: grab;
-}
-*/
-
-/* General Body Styles */
 /* General Body Styles */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  background-color: #f0f4f8; /* Soft background color */
-  color: #333; /* Dark text for readability */
+  background-color: #e9ecef; /* Light gray background */
+  color: #343a40; /* Dark text for readability */
   margin: 0;
   padding: 0;
 }
 
 /* Header Styles */
 header {
-  background-color: #007bff; /* Bootstrap primary color */
+  background-color: #6f42c1; /* Purple header */
   color: white; /* White text for contrast */
   padding: 40px 20px; /* Padding for header */
-  border-bottom: 5px solid #0056b3; /* Darker border for emphasis */
+  border-bottom: 5px solid #5a32a3; /* Darker purple border */
 }
 
 header h1 {
@@ -77,11 +57,7 @@ header p {
   transition: transform 0.2s; /* Smooth transition */
 }
 
-.lane:hover {
-  transform: scale(1.02); /* Slightly enlarge on hover */
-}
-
-/* Card Styles */
+/* Task Card Styles */
 .task-card {
   margin: 10px 0; /* Margin for cards */
   padding: 15px; /* Padding for card content */
@@ -91,6 +67,20 @@ header p {
   transition: box-shadow 0.2s; /* Smooth transition */
 }
 
+/* Color Coding for Task Status */
+.task-card[data-status="todo"] {
+  border-left: 5px solid #007bff; /* Blue for To Do */
+}
+
+.task-card[data-status="in-progress"] {
+  border-left: 5px solid #ffc107; /* Yellow for In Progress */
+}
+
+.task-card[data-status="done"] {
+  border-left: 5px solid #28a745; /* Green for Done */
+}
+
+/* Hover Effect for Task Cards */
 .task-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow on hover */
 }
@@ -101,7 +91,7 @@ header p {
 }
 
 .modal-header {
-  background-color: #007bff; /* Bootstrap primary color */
+  background-color: #6f42c1; /* Purple header */
   color: white; /* White text for header */
 }
 
