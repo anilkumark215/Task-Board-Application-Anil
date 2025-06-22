@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -14,4 +14,108 @@ body {
 
 .task-card:hover {
   cursor: grab;
+}
+*/
+
+/* General Body Styles */
+/* General Body Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #f0f4f8; /* Soft background color */
+  color: #333; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text for contrast */
+  padding: 40px 20px; /* Padding for header */
+  border-bottom: 5px solid #0056b3; /* Darker border for emphasis */
+}
+
+header h1 {
+  font-size: 2.5rem; /* Larger title */
+  margin: 0; /* Remove default margin */
+}
+
+header p {
+  font-size: 1.2rem; /* Slightly larger subtitle */
+}
+
+/* Button Styles */
+.btn-success {
+  background-color: #28a745; /* Green button */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 1rem; /* Font size for button */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Swim Lanes */
+.swim-lanes {
+  min-height: 60vh;
+  padding: 20px; /* Padding for swim lanes */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between lanes */
+}
+
+/* Lane Styles */
+.lane {
+  background-color: #ffffff; /* White background for lanes */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  flex: 1; /* Flex-grow for equal width */
+  margin: 0 10px; /* Margin between lanes */
+  transition: transform 0.2s; /* Smooth transition */
+}
+
+.lane:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Card Styles */
+.task-card {
+  margin: 10px 0; /* Margin for cards */
+  padding: 15px; /* Padding for card content */
+  border: 1px solid #ced4da; /* Light border for cards */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f8f9fa; /* Light background for cards */
+  transition: box-shadow 0.2s; /* Smooth transition */
+}
+
+.task-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 10px; /* Rounded corners for modal */
+}
+
+.modal-header {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text for header */
+}
+
+.modal-footer {
+  background-color: #f1f1f1; /* Light background for footer */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .swim-lanes {
+    flex-direction: column; /* Stack lanes on smaller screens */
+  }
+
+  .lane {
+    margin: 10px 0; /* Margin for stacked lanes */
+  }
 }
